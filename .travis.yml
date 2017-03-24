@@ -5,8 +5,7 @@ deploy:
   provider: heroku
   api_key:
     secure: SbRii9+lTxceL/1nwY3XDcze/IDwgIfbvvvbmA71lfST5q1/kykznjvC9CMsU4QStHW5QcTjW0M+sTFhosO9kztfd04s++OclKHrdzWEYVNF9lb7o2F+zAHoSMCSWwfLSjj2A2VH2jAh0CgsNTxc1vKMFmrl41VVxXPsV/nWmZtpcjaMMuzSxTPVj5hMTWEiRVvQIDghgimVU3BOAGOg2TusVSJjnL57rh69eUMyzU3dPeqQoSBdxqlUAQpS1/sN7SNmc5FzS8uaBoMyaYzODF+5ara+gKN3cpT+7G/5d9CIgIPx+lq8XuiJ5Hsci68dnNdMCBEldLvKFMxuo3GS9CLAMdCTMSjuZCvcZChan8W8viei6njUqPlWj+OYir4BGCzrSzxKGi/l0eW7WHw9pBbHBlMX9r5dYZ31DRWVJ11rd2RFWVSyEHhewHCIVG7eCVXaXS12KPoJ/6dAn2ygcEZRM3bWl/dJKRj7NbvNoNb080qQrJyzK/+a36hEp7DArzYys+A50L85G9Vo9G/2ZGcjFQhxwnv8doweUuyfRh1bC1o3JJlvmek6+B/me8udoDADig1p8vY/knwvY14Cml+LKncfJ35iKPzUM0Of/SuSI+YwGhgvlkDui8Mso4hv4VaJ/wBPQ/Le3yxLbdAOPz9rPlMphSXIie3K0mn/TNw=
-  run:
-    - "rake db:migrate"
+  run: "rake db:migrate"
   app: enigmatic-peak-33586
   on:
     repo: dlcadrien/projet
