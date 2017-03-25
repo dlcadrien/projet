@@ -17,6 +17,8 @@ gem 'coffee-rails', '~> 4.0.0'
 # jakubsvehla/nominatim
 gem 'nominatim', '~> 0.0.6'
 
+gem 'vcr', '~> 3.0', '>= 3.0.3', group: :development
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
