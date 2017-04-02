@@ -16,6 +16,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 # jakubsvehla/nominatim
 gem 'nominatim', '~> 0.0.6'
+gem 'forecast_io', '~> 2.0', '>= 2.0.1'
 
 gem 'vcr', '~> 3.0', '>= 3.0.3', group: :development
 
