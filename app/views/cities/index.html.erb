@@ -1,11 +1,14 @@
+<div style="width:95%;margin:auto;">
 <h1>Listing cities</h1>
 
-<table>
+<table class="table table-striped table-hover">
   <thead>
     <tr>
       <th>Name</th>
       <th>Latitude</th>
       <th>Longitude</th>
+      <th>Weather</th>
+      <th>Temperature</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -16,6 +19,8 @@
         <td><%= city.name %></td>
         <td><%= city.latitude %></td>
         <td><%= city.longitude %></td>
+        <td><%= city.weather.summary %></td>
+        <td><%= city.weather.temperature %> °C</td>
         <td><%= link_to 'Show', city %></td>
         <td><%= link_to 'Edit', edit_city_path(city) %></td>
         <td><%= link_to 'Destroy', city, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -26,4 +31,5 @@
 
 <br>
 
-<%= link_to 'New City', new_city_path %>
+<a style="color:#ffffff;" href="<%= new_city_path %>" class="btn btn-primary">New City</a>
+</div>

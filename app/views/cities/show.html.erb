@@ -17,12 +17,12 @@
 
 <p>
    <strong>Weather:</strong>
-   <%= @weatherToday %>
+   <%= @weather.summary %>
 </p>
  
 <p>
    <strong>Temperature:</strong>
-   <%= @weatherTemperature %> °C
+   <%= @weather.temperature %> °C
 </p>
 
 <%= link_to 'Edit', edit_city_path(@city) %> |
